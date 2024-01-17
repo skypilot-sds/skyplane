@@ -11,7 +11,7 @@ Skyplane is a tool for blazingly fast bulk data transfers between object stores 
 Skyplane is:
 1. 🔥 Blazing fast ([110x faster than AWS DataSync](https://skyplane.org/en/latest/benchmark.html))
 2. 🤑 Cheap (4x cheaper than rsync)
-3. 🌐 Universal (AWS, Azure and GCP)
+3. 🌐 Universal (AWS, Azure, IBM, SCP and GCP)
 
 You can use Skyplane to transfer data: 
 * between object stores within a cloud provider (e.g. AWS us-east-1 to AWS us-west-2)
@@ -26,6 +26,7 @@ Skyplane currently supports the following source and destination endpoints (any 
 | Google Storage     | ✅                 | ✅                 |
 | Azure Blob Storage | ✅                 | ✅                 |
 | Cloudflare R2      | ✅                 | ✅                 |
+| Samsung Cloud Platform Object Storage      | ✅                 | ✅                 |
 | Local Disk         | ✅                 | (in progress)      |
 
 Skyplane is an actively developed project. It will have 🔪 SHARP EDGES 🔪. Please file an issue or ask the contributors via [the #help channel on our Slack](https://join.slack.com/t/skyplaneworkspace/shared_invite/zt-1cxmedcuc-GwIXLGyHTyOYELq7KoOl6Q) if you encounter bugs.
