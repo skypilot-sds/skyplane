@@ -3,7 +3,7 @@
 ```
 pip install skyplane[aws]
 skyplane init
-skyplane [sync/cp] [local/s3/gs/azure]://mybucket/big_dataset [local/s3/gs/azure]://mybucket2/
+skyplane [sync/cp] [local/s3/gs/azure/scp]://mybucket/big_dataset [local/s3/gs/azure/scp]://mybucket2/
 ```
 
 Skyplane is a tool for blazingly fast bulk data transfers between object stores in the cloud. It provisions a fleet of VMs in the cloud to transfer data in parallel while using compression and bandwidth tiering to reduce cost.
